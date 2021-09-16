@@ -1,2 +1,18 @@
 # Reder
-Free and open source self-hosted Reddit style forum
+
+Reder (As in reader) is a free and open source Reddit-style forum for users to share links and images and start discussions.  It is part of the 30-54 project to provide gun-friendly social networking but will be available for anyone to use.
+
+## Design philosophy
+
+The core application and setup documentation must be kept as simple as possible to ensure accessibility for the largest possible audience.  Reder should empower site administrators and subreder moderators to run their communities as they see fit.  They will be trusted with a full range of abilities to moderate and customize their communities.  
+
+## Planned features
+
+* User creation of subreders with ability to be restricted by admins
+* Email confirmation and password resets
+* Email based two-factor authentication
+* Ability for administrators to close registration or require manual activation of new accounts
+* Allow admins to add and remove moderators from subreders
+* Ability to require 2FA for admins in the config file
+* Email domain blacklisting and whitelisting
+* Granular access for moderators and administrators

@@ -1,0 +1,6 @@
+<div id="sidebar">
+	<h2>Featured subreders</h2>
+	{% for sub in featured_subs %}
+		<li><a href="/r/{{ sub }}">r/{{ sub }}</a></li>
+	{% endfor %}
+</div>

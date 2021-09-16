@@ -1,0 +1,27 @@
+h1 {
+	font-family: sans-serif;
+}
+
+#sitename {
+	font-size: 20pt;
+}
+
+#sitename a {
+	color: black;
+}
+
+h2 {
+	font-family: sans-serif;
+}
+
+#subrederName {
+	font-size: 18pt;
+}
+
+#sidebar {
+	top: 0;
+	right:  0;
+	width:  250px;
+	height: 100%;
+	position: absolute;
+}
