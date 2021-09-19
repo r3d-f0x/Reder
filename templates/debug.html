@@ -1,0 +1,10 @@
+	{% if request.url.path == '/debug' %}
+		{% include 'sidebar.html' %}
+
+		<h2>Debug page</h2>
+
+		{% for id in random_ids %}
+			<li>Random ID: {{ id }} </li>
+		{% endfor %}
+
+	{% endif %}

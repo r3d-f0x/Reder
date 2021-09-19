@@ -3,4 +3,9 @@
 	{% for sub in featured_subs %}
 		<li><a href="/r/{{ sub }}">r/{{ sub }}</a></li>
 	{% endfor %}
+
+	{% if debug_mode == True %}
+		<h2>Debugging</h2>
+		<li><a href="/debug">Debug page</a></li>
+	{% endif %}
 </div>

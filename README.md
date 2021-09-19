@@ -16,3 +16,7 @@ The core application and setup documentation must be kept as simple as possible 
 * Ability to require 2FA for admins in the config file
 * Email domain blacklisting and whitelisting
 * Granular access for moderators and administrators
+* Empower users to moderate their own use of the site through blocking users and possibly subreders
+* Blocked users will not be able to see the posts of users who blocked them
+* Granular options for administrator and moderator actions including shadow banning users and quarantining subreders
+* Voting controls where moderators can disable downvoting and admins can disable downvoting sitewide or require it
